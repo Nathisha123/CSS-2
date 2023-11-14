@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>box model practice</title>
+  </head>
+  <body>
+    
+    <div class="container">
+      <button type="button" class="btn">Button-1</button>
+      <button type="button" class="btn" id="Button2">Button-2</button>
+      <button type="button" class="btn">Button-3</button>
+      <button type="button" class="btn">Button-4</button>
+      <button type="button" class="btn">Button-5</button>
+    </div>
+
+    <style>
+
+
+#Button2:hover
+{
+    background-color:black;
+    color: white;
+}
+.btn:hover
+{
+    background-color: aquamarine;
+    font-size:x-large;
+}
+.btn:active
+{
+    background-color: red;
+    font-size: small;
+}
+.btn:last-child
+{
+    background-color: blue;
+}
+
+.btn:first-child
+{
+    background-color: chartreuse;
+}
+.btn:nth-child(3)
+{
+    background-color:yellowgreen;
+}
+       
+      .btn
+      {
+        margin: 50px;
+        padding: 20px;
+        width: 150px;
+        height:60px;
+        border: 2px solid gray;
+        border-radius:10px;
+        color:darkmagenta;
+        background-color:azure; 
+      }
+
+      .container
+      {
+        background-color: blanchedalmond;
+      }
+    </style>
+  </body>
+</html>
